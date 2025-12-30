@@ -53,7 +53,7 @@ The app is able to run with [Pinokio](https://github.com/pinokiocomputer/pinokio
 2. Git clone the repository
 
 ```sh
-git clone https://github.com/jhj0517/Whisper-WebUI.git
+git https://github.com/Benew-Software/Whisper-WebUI.git
 ```
 
 3. Build the image ( Image is about 7GB~ )
@@ -70,15 +70,15 @@ docker compose up
 
 5. Connect to the WebUI with your browser at `http://localhost:7860`
 
-If needed, update the [`docker-compose.yaml`](https://github.com/jhj0517/Whisper-WebUI/blob/master/docker-compose.yaml) to match your environment.
+If needed, update the [`docker-compose.yaml`](https://github.com/Benew-Software/Whisper-WebUI/blob/master/docker-compose.yaml) to match your environment.
 
 - ## Run Locally
 
 ### Prerequisite
 To run this WebUI, you need to have `git`, `3.10 <= python <= 3.12`, `FFmpeg`.
 
-**Edit `--extra-index-url` in the [`requirements.txt`](https://github.com/jhj0517/Whisper-WebUI/blob/master/requirements.txt) to match your device.<br>** 
-By default, the WebUI assumes you're using an Nvidia GPU and **CUDA 12.8.** If you're using Intel or another CUDA version, read the [`requirements.txt`](https://github.com/jhj0517/Whisper-WebUI/blob/master/requirements.txt) and edit `--extra-index-url`.
+**Edit `--extra-index-url` in the [`requirements.txt`](https://github.com/Benew-Software/Whisper-WebUI/blob/master/requirements.txt) to match your device.<br>** 
+By default, the WebUI assumes you're using an Nvidia GPU and **CUDA 12.8.** If you're using Intel or another CUDA version, read the [`requirements.txt`](https://github.com/Benew-Software/Whisper-WebUI/blob/master/requirements.txt) and edit `--extra-index-url`.
 
 Please follow the links below to install the necessary software:
 - git : [https://git-scm.com/downloads](https://git-scm.com/downloads)
@@ -92,7 +92,7 @@ After installing FFmpeg, **make sure to add the `FFmpeg/bin` folder to your syst
 
 1. git clone this repository
 ```shell
-git clone https://github.com/jhj0517/Whisper-WebUI.git
+git clone https://github.com/Benew-Software/Whisper-WebUI.git
 ```
 2. Run `install.bat` or `install.sh` to install dependencies. (It will create a `venv` directory and install dependencies there.)
 3. Start WebUI with `start-webui.bat` or `start-webui.sh` (It will run `python app.py` after activating the venv)
@@ -118,7 +118,7 @@ Alternatively, if you enter the huggingface repo id (e.g, [deepdml/faster-whispe
 ![image](https://github.com/user-attachments/assets/76487a46-b0a5-4154-b735-ded73b2d83d4)
 
 # REST API
-If you're interested in deploying this app as a REST API, please check out [/backend](https://github.com/jhj0517/Whisper-WebUI/tree/master/backend).
+If you're interested in deploying this app as a REST API, please check out [/backend](https://github.com/Benew-Software/Whisper-WebUI/tree/master/backend).
 
 ## TODO🗓
 
@@ -133,4 +133,4 @@ If you're interested in deploying this app as a REST API, please check out [/bac
 - [ ] Support real-time transcription for microphone
 
 ### Translation 🌐
-Any PRs that translate the language into [translation.yaml](https://github.com/jhj0517/Whisper-WebUI/blob/master/configs/translation.yaml) would be greatly appreciated!
+Any PRs that translate the language into [translation.yaml](https://github.com/Benew-Software/Whisper-WebUI/blob/master/configs/translation.yaml) would be greatly appreciated!
