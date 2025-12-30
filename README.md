@@ -6,7 +6,7 @@ A Gradio-based browser interface for [Whisper](https://github.com/openai/whisper
 
 
 ## Notebook
-If you wish to try this on Colab, you can do it in [here](https://colab.research.google.com/github/jhj0517/Whisper-WebUI/blob/master/notebook/whisper-webui.ipynb)!
+If you wish to try this on Colab, you can do it in [here](https://colab.research.google.com/github/Benew-Software/Whisper-WebUI/blob/master/notebook/whisper-webui.ipynb)!
 
 # Feature
 - Select the Whisper implementation you want to use between :
